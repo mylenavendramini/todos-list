@@ -33,7 +33,7 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 ### Built With
 
-NODE.JS | EXPRESS | MONGODB
+NODE.JS | EXPRESS | MONGODB | PASSPORT
 
 ## Author
 
