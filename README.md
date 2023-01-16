@@ -1,6 +1,6 @@
 # todo-list
 
-This is a simple Simple todo list using Node.js, Express and MongoDB.
+This is a simple todo list using Node.js, Express and MongoDB in the MVC architecture pattern.
 
 https://user-images.githubusercontent.com/93344031/212117625-1aa9c7c0-31c6-4f23-86e8-c48f763e2aa8.mov
 
