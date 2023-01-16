@@ -1,6 +1,6 @@
 # todo-list
 
-Aimple ToDo App using the MVC Architecture, Node.js, Express and MongoDB. I implemented "authorization" so the users can sign up, customize and personalize the app.
+Simple ToDo App using the MVC Architecture, Node.js, Express and MongoDB. I implemented "authorization" so the users can sign up, customize and personalize the app.
 
 https://user-images.githubusercontent.com/93344031/212713321-6930e0a4-642c-4737-b509-ace810b8fee7.mp4
 
