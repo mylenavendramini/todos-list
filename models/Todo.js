@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-mongoose.set("strictQuery", false);
 
 const TodoSchema = new mongoose.Schema({
   todo: {
@@ -8,6 +7,10 @@ const TodoSchema = new mongoose.Schema({
   },
   completed: {
     type: Boolean,
+    required: true,
+  },
+  userId: {
+    type: String,
     required: true,
   },
 });

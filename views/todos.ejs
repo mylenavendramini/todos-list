@@ -13,6 +13,11 @@
 </head>
 <body>
     <div class="container">
+        <div class="welcome"> 
+            <h2>Hello <%= user.userName %>!</h2>
+            <a href="/logout"><button class="logout">Logout</button></a>
+        </div>
+       
     <h1 class="app-title">Todos</h1>
     <ul class="todo-list">
     <% todos.forEach( el => { %>
@@ -24,7 +29,7 @@
     <% }) %>    
     </ul>
 
-    <h2 class="left">Left to do: <%= left %></h2>
+    <h2 class="left">You have <%= left %> things left to do.</h2>
 
     <h2>Add a Todo:</h2>
 
@@ -32,7 +37,12 @@
         <input type="text" placeholder="Enter Todo Item" name='todoItem'>
         <input type="submit">
     </form>
-</div>
+   
+    <p class="copyright-todo">
+        &copy; Made by
+        <a href="https://mylenavendramini.com/">Mylena Vendramini</a>
+    </p>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>

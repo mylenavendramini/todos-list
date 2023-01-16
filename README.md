@@ -1,6 +1,6 @@
 # todo-list
 
-This is a simple todo list using Node.js, Express and MongoDB in the MVC architecture pattern.
+Aimple ToDo App using the MVC Architecture, Node.js, Express and MongoDB. I implemented "authorization" so the users can sign up, customize and personalize the app.
 
 https://user-images.githubusercontent.com/93344031/212117625-1aa9c7c0-31c6-4f23-86e8-c48f763e2aa8.mov
 
@@ -26,6 +26,10 @@ $ git clone https://github.com/mylenavendramini/todos-list.git
 $ npm start
 $ npm install add DB_STRING to .env file
 ```
+
+## Packages used
+
+bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
 ### Built With
 
